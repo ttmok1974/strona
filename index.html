@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylcia_Organizer</title>
+    <script src="script.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-image: url(kira.png);
+            background-size: 100%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            border: 10px solid black;          
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 20px;
+        }
+
+        .nagłówek-wrapper {
+            display: flex;
+            width: 100%;
+        }
+
+        .nagłówek1 {
+            background: hsla(0, 0%, 100%, 1);
+
+            background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+            background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+            background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#E3E3E3", GradientType=1 );
+
+            color: black;
+            width: 80%;
+            height: 400px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .nagłówek2 {
+            background-color: blue;
+            color: white;
+            width: 20%;
+            height: 400px;
+            text-align: center;
+            overflow-y: auto;
+        }
+
+        .nagłówek2 ol {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .menu1 {
+            height: auto;
+            background: hsla(0, 80%, 48%, 1);
+
+            background: linear-gradient(90deg, hsla(0, 80%, 48%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+            background: -moz-linear-gradient(90deg, hsla(0, 80%, 48%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+            background: -webkit-linear-gradient(90deg, hsla(0, 80%, 48%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DD1919", endColorstr="#E3E3E3", GradientType=1 );
+            
+            color: black;
+            width: 100%;
+        }
+        .btn
+        {
+            height: 100px;
+            width: 100px;
+            float: left;
+            opacity: 0.7;
+            transition: 0.1s ease-in-out opacity;
+            transition: 0.1s ease-in-out transform;
+            padding: 10px;
+        }
+        .btn:hover
+        {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        .lista
+        {
+            width: 50%;
+            height: auto;
+            background-color: blue;
+            border: 5px solid black;
+            margin: 5px;
+            color: whitesmoke;
+            float: right;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="nagłówek-wrapper">
+            <section class="nagłówek1">
+                <h1>Witaj <a style="color: rgb(226, 52, 81);">Sylwia</a> na stronie przeznaczonej specjalnie dla Ciebie !!!</h1>
+                <h3>Ten <a style="color: red;">organizer</a> ułatwi Ci codzienne korzystanie z ulubionych stron internetowych. Poniżej znajdziesz ikony stron, które przekierują cie tam gdzie chcesz.</h3>
+                <a href="https://www.youtube.com"><img src="yt.png" class="btn"></a>
+                <a href="https://www.hebe.pl/?gclsrc=aw.ds&gad_source=1&gad_campaignid=18570422616&gclid=CjwKCAjwl_XBBhAUEiwAWK2hzjY7gwpo2QLrJEy9ccfSdqN-bF5mguwlwXrqfgzVbl_K7-128JELcxoCbr8QAvD_BwE"><img src="hebe.png" class="btn"></a>
+                <a href="https://www.facebook.com"><img src="fb.png" class="btn"></a>
+                <a href="https://www.olx.pl"><img src="olx.png" class="btn"></a>
+                <a href="https://www.amazon.pl"><img src="amazon.png" class="btn"></a>
+                <a href="https://www.vinted.pl"><img src="v.png" class="btn"></a>
+                <a href="https://pl.aliexpress.com/?src=google&albch=fbrnd&acnt=304-410-9721&isdl=y&aff_short_key=UneMJZVf&albcp=21416161801&albag=165497748364&slnk=&trgt=kwd-464198394164&plac=&crea=703760166705&netw=g&device=c&mtctp=e&memo1=&albbt=Google_7_fbrnd&aff_platform=google&albagn=888888&isSmbActive=false&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=21416161801&gclid=CjwKCAjwl_XBBhAUEiwAWK2hzuKiPYtKjChVMhxjoSO50S7ly49N0uuz7dla1QTU81D7a55aHZZnhhoCA9cQAvD_BwE&gatewayAdapt=glo2pol"><img src="ali.png" class="btn"></a>
+                <a href="https://www.primevideo.com/?ref_=dvm_pds_amz_PL_lb_s_g_mkw_sKVgfNOPQ-dc_pcrid_619999628364&mrntrk=slid__pgrid_97989287008_pgeo_9198135_x__adext__ptid_kwd-301994747748&gad_source=1&gad_campaignid=9130201334&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkjdOlkJWnxKD_WPhoYXtVvjw42TxpgDTWVNIt8bOXr6yN5u_HdMjnZkaAhysEALw_wcB"><img src="Amazon_Prime_Video_logo_(2024).svg.png" class="btn"></a>
+                <a href="https://www.rossmann.pl/?srsltid=AfmBOoqwslnQuRQBPOYUPVTlzbfvLDhudLJ2kVlb7vEZDOOd1dYHM_pS"><img src="rossmann.png" class="btn"></a>
+                <a href="https://www.sinsay.com/pl/pl/?utm_content=brand&gad_source=1&gad_campaignid=6484789905&gclid=CjwKCAjwl_XBBhAUEiwAWK2hzk0oDZ3eSwbyyb8edNb5pQ2h9MC4XA42KhJtfvBX17VSvoF44K7ZUBoCgjUQAvD_BwE"><img src="sin.png" class="btn"></a>
+                <a href="https://www.cropp.com/pl/pl/"><img src="cropp.png" class="btn"></a>
+                <a href="https://www.douglas.pl/pl/b/eilish-billie-eilish/b8148"><img src="do.png" class="btn"></a>
+                <a href="https://yatta.pl/?gad_source=1&gad_campaignid=20936199314&gclid=Cj0KCQjwuvrBBhDcARIsAKRrkje-fC5dWS1OY_4Y04PMtxHse1TMVsfH8myXBgz9VkXhDWZLyhIsLIsaAiEmEALw_wcB"><img src="yatta.jpg" class="btn"></a>
+                <a href="https://anime-odcinki.pl"><img src="animeodc.png" class="btn"></a>
+            </section>
+
+            <section class="nagłówek2">
+                <h2>Menu</h2>
+                <ol style="padding-left: 35%;">
+                    <li>Youtube</li>
+                    <li>Rossmann</li>
+                    <li>Facebook</li>
+                    <li>OLX</li>
+                    <li>Vinted</li>
+                    <li>Aliexpress</li>
+                    <li>Amazon Sklep</li>
+                    <li>Chat GPT</li>
+                    <li>Netflix</li>
+                    <li>Hebe</li>
+                    <li>Amazon Prime</li>
+                    <li>Douglas</li>
+                    <li>Cropp</li>
+                    <li>Sinsay</li>
+                    <li>Douglas</li>
+                    <li>Anime Odcinki</li>
+                    <li>Yatta</li>
+                </ol>
+            </section>
+        </div>
+
+        <main class="menu1">
+            <p><a style="float: right; font-size: 25px;">Selektor losywch zadań kiedy nie wiesz co robić !!!</a><br>
+            <a style="float: right;">Instrukcja: Przycisk poniżej wylosuje ci zadanie które musisz wykonać, jak je zrobisz możesz wylosować nowe</a></p><br>
+            <button onclick="Losowanie()" style="float: right;">Wylosuj zadanie dnia</button>
+            <button onclick="Ukończono()" style="float: right;">Ukończono</button><br><br>
+            <div class="lista" id="wykonane_zadania"></div>
+            <img src="zandberg.png" style="transform: scale(0.7); position: relative; bottom:-85px; z-index: 0;" onclick="zandberg()">
+        </main>
+    </div>
+</body>
+</html>

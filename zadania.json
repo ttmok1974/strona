@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"baza codziennych zadań"},
+{"type":"table","name":"zadania","database":"baza codziennych zadań","data":
+[
+{"obowiązki":"🧹 Posprzątaj jedno pomieszczenie"},
+{"obowiązki":"📚 Przeczytaj 10 stron książki"},
+{"obowiązki":"💧 Wypij 1 litr wody do południa"},
+{"obowiązki":"📞 Zadzwoń do kogoś, z kim dawno nie rozmawiałeś"},
+{"obowiązki":"🧘 Zrób 10 minut medytacji lub ćwiczeń oddechowych"},
+{"obowiązki":"🚶‍♂️ Zrób 20-minutowy spacer"},
+{"obowiązki":"❤️ Bądź freaky z Tomkiem"}
+]
+}
+]
